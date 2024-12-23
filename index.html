@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meeting Calculator</h1>
+
+    <form id="person1Form">
+      <h2>Person 1</h2>
+      <label for="name1">Your Name:</label>
+      <input type="text" id="name1" name="name1" required>
+
+      <label for="age1">Your Age:</label>
+      <input type="number" id="age1" name="age1" required>
+
+      <label for="birthplace1">Your Birthplace:</label>
+      <input type="text" id="birthplace1" name="birthplace1" required>
+
+      <label for="race1">Your Race:</label>
+      <input type="text" id="race1" name="race1" required>
+    </form>
+
+    <form id="person2Form">
+      <h2>Person 2</h2>
+      <label for="name2">Your Name:</label>
+      <input type="text" id="name2" name="name2" required>
+
+      <label for="age2">Your Age:</label>
+      <input type="number" id="age2" name="age2" required>
+
+      <label for="birthplace2">Your Birthplace:</label>
+      <input type="text" id="birthplace2" name="birthplace2" required>
+
+      <label for="race2">Your Race:</label>
+      <input type="text" id="race2" name="race2" required>
+    </form>
+
+    <button id="calculateButton">Calculate Meeting Chances</button>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
